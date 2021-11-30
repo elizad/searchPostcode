@@ -8,12 +8,12 @@ test('renders learn react link', () => {
   expect(linkElement).toBeInTheDocument();
 });
 
-test("it is the postcode element visible", () => {
-  render(<App />);
-  const postcode = screen.getByTitle("postcodeInput");
-  expect(postcode).toBeInTheDocument();
-
-});
+// test("it is the postcode element visible", () => {
+//   render(<App />);
+//   const postcode = screen.getByTitle("postcodeInput");
+//   expect(postcode).toBeInTheDocument();
+//
+// });
 
 // and so on
 // test ("if there is a bad postcode"), () => {
